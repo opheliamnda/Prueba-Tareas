@@ -43,15 +43,15 @@ Si no es posible que todos crucen, se deberá imprimir una sola línea especific
 - Si faltan ponys terrestres para talar la madera necesaria: "¡Debemos llamar a más terrestres!"
 
 Si es posible que todos crucen, se deben imprimir las siguientes líneas en el orden indicado:
-1. "Los unicornios han traído x árboles desde el otro lado para poder cruzar el río", donde x es la cantidad de árboles necesaria a talar para que todos los ponys puedan cruzar (Notar que este número puede ser cero, y no puede ser mayor a la cantidad de árboles dada)
-2. "Se han necesitado _ ponys unicornios para traer x árboles"
-3. "Los ponys terrestres han talado x árboles para poder cruzar al otro lado del río, obteniendo pasarelas temporales"
-5. "Se han necesitado _ ponys terrestres para talar x árboles"
-6. "Han cruzado t ponys terrestres", donde t es la cantidad de ponys terrestres
-7. "Han cruzado u ponys unicornios", donde u es la cantidad de ponys unicornios
+1. "Los unicornios han traído _x_ árboles desde el otro lado para poder cruzar el río", donde _x_ es la cantidad (int) de árboles necesaria a talar para que todos los ponys puedan cruzar (Notar que este número puede ser cero, y no puede ser mayor a la cantidad de árboles dada)
+2. "Se han necesitado _n_ ponys unicornios para traer x árboles", donde _n_ es la cantidad de ponys unicornios necesarios para traer los árboles
+3. "Los ponys terrestres han talado _x_ árboles para poder cruzar al otro lado del río, obteniendo pasarelas temporales"
+5. "Se han necesitado _m_ ponys terrestres para talar _x_ árboles", donde _m_ es la cantidad de ponys terrestres necesarios para talar los árboles
+6. "Han cruzado _t_ ponys terrestres", donde _t_ es la cantidad de ponys terrestres
+7. "Han cruzado _u_ ponys unicornios", donde _u_ es la cantidad de ponys unicornios
 8. "He cruzado el río"
-9. Si esta_nublado es False: "Han cruzado p ponys pegasos volando", donde p es la cantidad de ponys pegasos
-10. Si esta_nublado es True: "Han cruzado p ponys pegasos por el puente"
+9. Si esta_nublado es False: "Han cruzado _p_ ponys pegasos volando", donde _p_ es la cantidad de ponys pegasos
+10. Si esta_nublado es True: "Han cruzado _p_ ponys pegasos caminando"
 11. " .𖥔 ݁ ˖ Hemos cruzado gracias al poder de la amistad -` ♡ ´- "
 
 ## Ejemplo
@@ -80,7 +80,7 @@ Han cruzado 2 ponys terrestres
 Han cruzado 3 ponys unicornios
 He cruzado el río
 Han cruzado 1 ponys pegasos volando
-Hemos cruzado gracias al poder de la amistad
+ .𖥔 ݁ ˖ Hemos cruzado gracias al poder de la amistad -` ♡ ´- 
 
 ```
 **Explicación:** 
@@ -103,7 +103,7 @@ True
 
 #### Output
 ```
-Debemos llamar a más unicornios!
+¡Debemos llamar a más unicornios!
 
 ```
 **Explicación:** 

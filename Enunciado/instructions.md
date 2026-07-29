@@ -6,7 +6,7 @@ En la orilla encuentras a un grupo de ponys que se dirigen a Ponyville y se han 
 
 Los tipos de ponys son:
 
-  - **Pegasos:** Tienen la capacidad de volar. Si el día está despejado ("Despejado"), vuelan por su cuenta sin necesidad de un paso (aunque esperan a que todos crucen primero). Sin embargo, si el día está nublado ("Nublado"), les da miedo volar y deberán cruzar caminando por el puente.
+  - **Pegasos:** Tienen la capacidad de volar. Si el día está despejado ("Despejado"), vuelan por su cuenta sin necesidad de un paso (aunque esperan a que todos crucen primero). Sin embargo, si el día está nublado ("Nublado"), les da miedo volar y deberán cruzar caminando por un paso provisorio.
     
   - **Terrestres:** Poseen una gran fuerza. Cada pony terrestre es capaz de talar **2 árboles** a su alcance para usarlos como pasarela.
     

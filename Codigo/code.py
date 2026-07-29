@@ -13,7 +13,11 @@ for _ in range(n):
     peg +=1
 
 arboles = int(input())
-esta_nublado = input()
+nub = input()
+if nub == "Nublado":
+  esta_nublado = True
+else:
+  esta_nublado = False
 
 caminan = 1 + ter + uni
 

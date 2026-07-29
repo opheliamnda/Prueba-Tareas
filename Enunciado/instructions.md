@@ -39,8 +39,8 @@ Finalmente, el programa recibirá un _booleano_ esta_nublado (que puede ser True
 Si no es posible que todos crucen, se deberá imprimir una sola línea especificando la causa (evaluando en este estricto orden):
 
 - Si los árboles disponibles de la otra orilla no alcanzan para todos que todos crucen debe imprimir: "No hay suficientes árboles en el entorno para construir el puente"
-- Si faltan unicornios para traer los árboles necesarios de la otra orilla: "Debemos llamar a más unicornios!"
-- Si faltan ponys terrestres para talar la madera necesaria: "Debemos llamar a más terrestres!"
+- Si faltan unicornios para traer los árboles necesarios de la otra orilla: "¡Debemos llamar a más unicornios!"
+- Si faltan ponys terrestres para talar la madera necesaria: "¡Debemos llamar a más terrestres!"
 
 Si es posible que todos crucen, se deben imprimir las siguientes líneas en el orden indicado:
 1. "Los unicornios han traído x árboles desde el otro lado para poder cruzar el río", donde x es la cantidad de árboles necesaria a talar para que todos los ponys puedan cruzar (Notar que este número puede ser cero, y no puede ser mayor a la cantidad de árboles dada)
@@ -52,7 +52,7 @@ Si es posible que todos crucen, se deben imprimir las siguientes líneas en el o
 8. "He cruzado el río"
 9. Si esta_nublado es False: "Han cruzado p ponys pegasos volando", donde p es la cantidad de ponys pegasos
 10. Si esta_nublado es True: "Han cruzado p ponys pegasos por el puente"
-11. "Hemos cruzado gracias al poder de la amistad"
+11. " .𖥔 ݁ ˖ Hemos cruzado gracias al poder de la amistad -` ♡ ´- "
 
 ## Ejemplo
 

@@ -17,8 +17,9 @@ esta_nublado = input()
 
 caminan = 1 + ter + uni
 
-if esta_nublado == True:
+if esta_nublado:
   caminan += peg
+
 
 if caminan % 2 == 0:
   arboles_necesarios = int(caminan/2)
@@ -52,7 +53,7 @@ else:
         print(f"Han cruzado {peg} ponys pegasos caminando")
       else:
         print(f"Han cruzado {peg} ponys pegasos volando")
-      print("Hemos cruzado gracias al poder de la amistad")
+      print(" .𖥔 ݁ ˖ Hemos cruzado gracias al poder de la amistad -` ♡ ´- ")
 
 
 
